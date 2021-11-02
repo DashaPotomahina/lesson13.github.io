@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(180, 180, 180);
+}
+h1{
+    text-transform: uppercase;
+}
+.hr{
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+h1:after{
+    content: " ";
+}
+.one{
+   display: flex;
+   flex-direction: column;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: rgb(207, 88, 88);
+}
+a:active{
+    color: purple;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.kvadrat{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(231, 54, 54);
+}
+.kvadrat:hover{
+    background-color:rgb(73, 179, 73);
+}
+.krug{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 93);
+    border-radius: 100%;
+}
+.krug:hover{
+    background-color: rgb(231, 54, 54);
+}
+.treugolnik{
+    height: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(73, 179, 73);
+}
+.treugolnik:hover{
+    border-bottom: 100px solid rgb(255, 255, 93);
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input{
+    width: 100px;
+    height: 25px;
+}
+input:focus{
+    border: black solid 3px;
+}
+.four li:first-child{
+    color:rgb(73, 179, 73)
+}
+.four li:last-child{
+    color:rgb(255, 255, 93)
+}
+.five li:nth-child(2n){
+    font-size: 20px;
+    border: black solid 1px;
+}
